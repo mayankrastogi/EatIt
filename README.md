@@ -1,3 +1,3 @@
 # Eat It
 
-Reimagining breakfast through Augmented Reality
+Re-imagining breakfast through Augmented Reality

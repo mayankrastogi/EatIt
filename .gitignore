@@ -37,7 +37,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-!EatIt.unitypackage		# Vuforia Database
+
+# Don't ignore the Vuforia Database
+!EatIt.unitypackage
 
 
 # End of https://www.gitignore.io/api/unity
