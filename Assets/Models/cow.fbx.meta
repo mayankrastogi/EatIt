@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: ae63560b88c322346a137f7063c7a0e4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone118
+    100002: Bone119
+    100004: Bone120
+    100006: Bone121
+    100008: Bone122
+    100010: Bone123
+    100012: Bone124
+    100014: Bone125
+    100016: Bone126
+    100018: Bone127
+    100020: Bone128
+    100022: Bone129
+    100024: Bone130
+    100026: Bone131
+    100028: Bone132
+    100030: Bone133
+    100032: Bone134
+    100034: Bone135
+    100036: Bone136
+    100038: Bone137
+    100040: Bone138
+    100042: Bone139
+    100044: Bone140
+    100046: Bone141
+    100048: Bone142
+    100050: Bone143
+    100052: Bone144
+    100054: Bone145
+    100056: Bone146
+    100058: Bone147
+    100060: Bone148
+    100062: Bone149
+    100064: Bone150
+    100066: Bone151
+    100068: Bone152
+    100070: Bone153
+    100072: Bone154
+    100074: Bone155
+    100076: Bone156
+    100078: Bone157
+    100080: Bone158
+    100082: Bone159
+    100084: Bone160
+    100086: Bone161
+    100088: Bone162
+    100090: //RootNode
+    100092: Plane004
+    400000: Bone118
+    400002: Bone119
+    400004: Bone120
+    400006: Bone121
+    400008: Bone122
+    400010: Bone123
+    400012: Bone124
+    400014: Bone125
+    400016: Bone126
+    400018: Bone127
+    400020: Bone128
+    400022: Bone129
+    400024: Bone130
+    400026: Bone131
+    400028: Bone132
+    400030: Bone133
+    400032: Bone134
+    400034: Bone135
+    400036: Bone136
+    400038: Bone137
+    400040: Bone138
+    400042: Bone139
+    400044: Bone140
+    400046: Bone141
+    400048: Bone142
+    400050: Bone143
+    400052: Bone144
+    400054: Bone145
+    400056: Bone146
+    400058: Bone147
+    400060: Bone148
+    400062: Bone149
+    400064: Bone150
+    400066: Bone151
+    400068: Bone152
+    400070: Bone153
+    400072: Bone154
+    400074: Bone155
+    400076: Bone156
+    400078: Bone157
+    400080: Bone158
+    400082: Bone159
+    400084: Bone160
+    400086: Bone161
+    400088: Bone162
+    400090: //RootNode
+    400092: Plane004
+    2100000: 2
+    4300000: Plane004
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Plane004
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2
+    second: {fileID: 2100000, guid: 087755700a0bacc45846ba3934aa57b9, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: uv2
+    second: {fileID: 2800000, guid: cc69928e624871b40a42e695bfe50413, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

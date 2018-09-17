@@ -16,7 +16,7 @@ MonoBehaviour:
     ufoLicenseKey: QVVLeFIrVC8vLy8vQUFBQUtLVlE1Uk8rbWtuZ3RiR0FrajdVczVrVGVXOHdyZXV0cGt6K0JacDNBNWJOSzdDRmVtUGhyenJoeWlTRk54azNBdDltcnhrZE9mUWFQcGNqSWlqdlljNmVQbXZGdk11eGZqY1ZMbHg3MkhSUmdnKzVrUUlVOTNDTjY0U0pYczdKVVcwNk5wMFlURG93LzZkeHpXT1QxaXFQaHlldGljbEdzNlRsV2RkZjlwU0JKeEFmeTZabDRKa2pHYjJ6R2w5SHJ5K3ROY29pWjRKbFNGVjA5bkpUZy95bHdobGUyYmlyYTdpVFpOQVFoaTdwNnRDaGRWRHFhSFIyQ3lwOEExTGc0MGJYVmRVWk5WSUZHS052YVBZQm5oVHJmb0xuSlQvdVpzNU5zMStqWlZTQmRqZk03ZDgxNURDR2k3Z2RrVUpxUXV3cmt3NEE3T3FZc3JVdEdNN2plNkp0US9QK2s4RlJaM3dsUnAxcTNsbk4=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 3
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: DroidCam Source 3
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
