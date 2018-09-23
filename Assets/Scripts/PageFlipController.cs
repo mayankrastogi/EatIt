@@ -104,6 +104,8 @@ public class PageFlipController : MonoBehaviour,  IVirtualButtonEventHandler {
         PageFlipAnimator.SetBool(IsDirectionForwardParameterName, direction == FlipDirection.Next);
         PageFlipAnimator.SetTrigger(FlipAnimationTriggerName);
 
+        GetComponent<AudioSource>().enabled = true;
+
         StartCoroutine(ResetFlippingState(direction));
     }
 
@@ -145,6 +147,7 @@ public class PageFlipController : MonoBehaviour,  IVirtualButtonEventHandler {
             }
         }
 
+        GetComponent<AudioSource>().enabled = false;
         PageFlipAnimator.SetTrigger(IdleStateTriggerName);
         IsFlipping = false;
     }
