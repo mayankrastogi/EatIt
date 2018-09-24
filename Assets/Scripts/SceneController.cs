@@ -8,6 +8,7 @@ public class SceneController : MonoBehaviour {
     public List<GameObject> AlwaysVisibleObjects;
     public AudioClip PlacematReactionAudio;
 
+    public string SceneReactionAnimationParameterName = "IsThreatened";
     public string PlacematTagName = "Placemat";
 
     private bool IsOnPlacemat = false;
@@ -53,10 +54,21 @@ public class SceneController : MonoBehaviour {
     private void StartReacting() {
         IsReacting = true;
         Debug.Log(this.name + "has started reacting");
+
+        Animator animator = GetComponent<Animator>();
+        if(animator) {
+            animator.SetBool(SceneReactionAnimationParameterName, true);
+        }
     }
 
     private void StopReacting() {
         Debug.Log(this.name + "has stopped reacting");
+
+        Animator animator = GetComponent<Animator>();
+        if (animator) {
+            animator.SetBool(SceneReactionAnimationParameterName, false);
+        }
+
         IsReacting = false;
     }
 
